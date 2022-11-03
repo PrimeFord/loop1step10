@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+main {
+    overflow-y: auto;
+}
+#about {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    /* overflow-x: hidden; */
+    border-bottom: 2px solid gray;
+    background-image: url("./media/watches.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: 65rem;
+    background-position-y: 5rem;
+}
+nav {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 5rem 3rem 15rem;
+}
+.nav_img {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.opt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    font-size: 12px;
+}
+.opt a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.opt a:hover {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.2rem;
+}
+.opt input {
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.2rem;
+}
+.about_writing {
+    background-color: transparent;
+    margin: 0 5rem 0 15rem;
+    height: 30rem;
+    width: 60rem;
+    margin-top: 7rem;
+}
+.about_writing h2 {
+    font-size: 35px;
+    padding-bottom: 3rem;
+}
+.flex {
+    display: flex;
+}
+.touch {
+    position: relative;
+    content: "";
+    height: 6rem;
+    width: 2px;
+    background-color: gray;
+}
+.about_writing p {
+    padding-left: 2rem;
+    font-size: 12px;
+    width: 21rem;
+    color: gray;
+    line-height: 18px;
+    padding-bottom: 2rem;
+}
+.button {
+    font-size: 10px;
+    padding: 0.5rem;
+    background-color: rgb(243, 101, 101);
+    border: 1px solid rgb(243, 101, 101);
+    color: white;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(224, 88, 88);
+}
+
+
+#offers {
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+}
+.check {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 15rem 3rem 15rem;
+    justify-content: space-between;
+}
+.list {
+    width: 15rem;
+}
+.list h3 {
+    font-size: 14px;
+    padding-bottom: 3rem;
+}
+.list p {
+    font-size: 12px;
+    color: gray;
+    font-weight: 700;
+    line-height: 20px;
+}
+.dots {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.dots div {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: gray;
+    content: "";
+    margin: 0.2rem;
+}
+.learn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+}
+.learn:hover {
+    cursor: pointer;
+}
+.line {
+    height: 2px;
+    width: 2rem;
+    background-color: rgb(243, 101, 101);
+    margin-right: 1rem;
+}
+.learn p {
+    color: rgb(243, 101, 101);
+    font-size: 11px;
+}
+.box {
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    background-image: url("./media/preview.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 15rem;
+}
+.touch2 {
+    position: relative;
+    content: "";
+    height: 4.5rem;
+    width: 2px;
+    background-color: gray;
+}
+
+
+#services {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./media/runners.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.about_writing2 {
+    color: white;
+    background-color: transparent;
+    margin: 0 15rem 0 45rem;
+    height: 30rem;
+    width: 60rem;
+    margin-top: 12rem;
+}
+.about_writing2 h2 {
+    font-size: 35px;
+    padding-bottom: 3rem;
+}
+.flex {
+    display: flex;
+}
+.touch3 {
+    position: relative;
+    content: "";
+    height: 6rem;
+    width: 2px;
+    background-color: white;
+}
+.about_writing2 p {
+    color: white;
+    padding-left: 2rem;
+    font-size: 12px;
+    width: 21rem;
+    line-height: 18px;
+    padding-bottom: 2rem;
+}
+.button {
+    font-size: 10px;
+    padding: 0.5rem;
+    background-color: rgb(243, 101, 101);
+    border: 1px solid rgb(243, 101, 101);
+    color: white;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(224, 88, 88);
+}
