@@ -8,14 +8,14 @@ Clone or download this repository and run with a local server of open `index.htm
 - Your browser version must be recent for a better experience
 
 ## Features
-- My Wallet
-- Payment Transactions
-
-## Tech/framework used
 - Nike Band Watch
 - About
 - Offers
 - Services
+
+## Tech/framework used
+- HTML
+- CSS
 
 ## Demo
 [Preview Here](https://rawcdn.githack.com/PrimeFord/loop1step10/43a264f10513471f81aaad037ef5d78b34796235/index.html)
